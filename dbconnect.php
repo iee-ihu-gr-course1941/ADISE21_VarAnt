@@ -1,14 +1,14 @@
 <?php
 $host='localhost';
-$db = 'adisegame';
-//require_once "db_upass.php";
+$db = 'ADISE21_VarAnt';
+require_once "db_upass.php";
 
 $user=$DB_USER;
-//$pass=$DB_PASS;
+$pass=$DB_PASS;
 
 
-if(gethostname()=='localhost') {
-	$mysqli = new mysqli($host, $user, $pass, $db,null,'/home/staff/asidirop/mysql/run/mysql.sock');
+if(gethostname()=='users.iee.ihu.gr') {
+	$mysqli = new mysqli($host, $user, $pass, $db,null,'/home/student/it/2015/it154571/mysql/run/mysql.sock');
 } else {
 		$pass=null;
         $mysqli = new mysqli($host, $user, $pass, $db);
@@ -17,6 +17,4 @@ if(gethostname()=='localhost') {
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . 
     $mysqli->connect_errno . ") " . $mysqli->connect_error;
-}
-
-?>
+}?>
