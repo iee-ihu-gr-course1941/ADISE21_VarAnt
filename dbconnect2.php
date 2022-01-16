@@ -1,5 +1,5 @@
 <?php
-$host='localhost';
+$host='users.iee.ihu.gr';
 $db = 'nmm.sql';
 require_once "db_upass.php";
 
