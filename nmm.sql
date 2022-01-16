@@ -1,11 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 5.1.1
--- https://www.phpmyadmin.net/
---
--- Εξυπηρετητής: 127.0.0.1
--- Χρόνος δημιουργίας: 16 Ιαν 2022 στις 19:42:58
--- Έκδοση διακομιστή: 10.4.22-MariaDB
--- Έκδοση PHP: 8.0.13
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -17,9 +9,7 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
---
--- Βάση δεδομένων: `nmm`
---
+
 
 -- --------------------------------------------------------
 
@@ -30,10 +20,10 @@ SET time_zone = "+00:00";
 CREATE TABLE `main_board` (
   `x` int(11) NOT NULL,
   `y` int(11) NOT NULL,
-  `b_color` enum('B','W') CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
+  `b_color` enum('B','W') COLLATE utf8_bin NOT NULL,
   `piece_color` int(11) NOT NULL,
-  `piece` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `piece` int(11) NOT NULL,
+) ;
 
 -- --------------------------------------------------------
 
