@@ -50,7 +50,7 @@ function gamestart() {
 
 <!--Board Image -->
 <div class="d-flex justify-content-center" >
-  <img src="./Images/nmm_board.png" class="img-fluid" width="500"> 
+  <img src="./Images/nmm_board.jpg" class="img-fluid" width="500"> 
   
 
 </div>

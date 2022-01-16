@@ -1,4 +1,4 @@
-div class="container-fluid">
+<div class="container-fluid">
   <form action="index.php?ctd=after_register" method="post">
       <div class="form-group row form">
         <label for="username" class="col-md-4 col-form-label text-md-right">Username</label>
