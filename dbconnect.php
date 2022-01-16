@@ -1,7 +1,7 @@
 <?php
 $user='root';
 $pass='000000';
-$host='localhost';
+$host='users.iee.ihu.gr';
 $db = 'nmm.sql';
 
 
