@@ -2,7 +2,7 @@
 $user='root';
 $pass='000000';
 $host='localhost';
-$db = 'nmm.sql';
+$db = 'nmm';
 
 
 $mysqli = new mysqli($host, $user, $pass, $db,null,'/home/student/it/2015/it154571/mysql/run/mysql.sock');
