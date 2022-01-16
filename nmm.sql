@@ -22,7 +22,7 @@ CREATE TABLE `main_board` (
   `b_color` enum('B','W') COLLATE utf8_bin NOT NULL,
   `piece_color` int(11) NOT NULL,
   `piece` int(11) NOT NULL,
-) ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 -- --------------------------------------------------------
 
