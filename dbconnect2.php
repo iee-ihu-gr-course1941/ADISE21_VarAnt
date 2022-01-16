@@ -1,6 +1,6 @@
 <?php
 $host='localhost';
-$db = 'adise_21_nmm';
+$db = 'adise_21_nmm.sql';
 require_once "db_upass.php";
 
 $user=$DB_USER;
