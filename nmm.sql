@@ -1,4 +1,12 @@
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+-- phpMyAdmin SQL Dump
+-- version 5.0.4
+-- https://www.phpmyadmin.net/
+--
+-- Φιλοξενητής: 127.0.0.1
+-- Χρόνος δημιουργίας: 03 Δεκ 2021 στις 20:34:06
+-- Έκδοση διακομιστή: 10.4.16-MariaDB
+-- Έκδοση PHP: 7.4.12SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+
 START TRANSACTION;
 SET time_zone = "+00:00";
 
