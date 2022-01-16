@@ -1,4 +1,5 @@
 -- phpMyAdmin SQL Dump
+<<<<<<< HEAD
 -- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
@@ -7,7 +8,7 @@
 -- Έκδοση διακομιστή: 10.4.22-MariaDB
 -- Έκδοση PHP: 8.0.13
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -33,7 +34,11 @@ CREATE TABLE `main_board` (
   `b_color` enum('B','W') CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
   `piece_color` int(11) NOT NULL,
   `piece` int(11) NOT NULL
+<<<<<<< HEAD
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+=======
+) ;
+>>>>>>> 1159a97f6e0376bb5d0b4b14c9b7bc0767501aee
 
 -- --------------------------------------------------------
 
